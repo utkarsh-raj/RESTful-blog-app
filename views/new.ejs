@@ -1,0 +1,22 @@
+<% include ./partials/header %>
+<form action="/blogs" method="POST">
+    <div class="ui form">
+      <div class="field">
+        <label>Title</label>
+        <input type="text" name="blog[title]">
+      </div>
+      <div class="field">
+        <label>Image</label>
+        <input type="text" name="blog[image]">
+      </div>
+      <div class="field">
+        <label>Blog Content</label>
+        <textarea name="blog[body]"></textarea>
+      </div>
+      <input type="submit" class="ui inverted green button">
+      <div class="ui button">
+        <a href="/blogs">Go Back</a>
+    </div>
+    </div>
+</form>
+<% include ./partials/footer %>

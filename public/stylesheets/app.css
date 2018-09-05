@@ -1,0 +1,36 @@
+body {
+    font-size: 1.5em;
+}
+
+.ui.inverted.menu .header.item {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-left: 10%;
+}
+
+.ui.container {
+    text-align: center;
+}
+
+#menu {
+    border: 2px solid black;
+    padding: 10%;
+}
+
+.ui.row {
+    border: 2px solid green;
+}
+
+.ui.row .column {
+    border: 2px solid orange;
+}
+
+.ui.form {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.twelve.wide.column {
+    text-align: left;
+}

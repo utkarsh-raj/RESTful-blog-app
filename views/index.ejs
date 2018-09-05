@@ -1,0 +1,21 @@
+<% include ./partials/header %>
+<div class="ui container" id="menu">
+    <% var i = 0; %>
+    <% for (i = 0; i < blogs.length; i++) { %>
+        <div class="ui internally celled grid">
+            <div class="row">
+                <div class="four wide column middle aligned image">
+                    <img src="<%= blogs[i].image %>">
+                </div>
+                <div class="twelve wide column">
+                    <h2 class="ui header"><%= blogs[i].title %></h1>
+                    <%= blogs[i].created.toDateString() %>
+                    <div><%= blogs[i].body.substring(0, 100) %>...</div>
+                    <a href="blogs/<%= blogs[i]._id %>">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="ui divider"></div>
+    <% } %>
+</div>
+<% include ./partials/footer %>
