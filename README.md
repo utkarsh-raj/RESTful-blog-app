@@ -1,2 +1,2 @@
 # RESTful-blog-app
-A RESTul Blog Web App with CRUD functionalities.
+A RESTful Blog Web App with CRUD functionalities.
